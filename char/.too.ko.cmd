@@ -1,0 +1,1 @@
+cmd_/home/shuvo/gg/char/too.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-44-generic/scripts/module-common.lds --build-id  -o /home/shuvo/gg/char/too.ko /home/shuvo/gg/char/too.o /home/shuvo/gg/char/too.mod.o
