@@ -20,7 +20,7 @@ static int reg_irq(void){
 }
 
 
-static void unreg_irq(voi){
+static void unreg_irq(void){
 	printk(KERN_ALERT "Going for Unregister \n");
 	free_irq(1,(void *)irq_handeler);
 }
