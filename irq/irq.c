@@ -14,7 +14,7 @@ static int reg_irq(void){
 	
 	ret=request_irq(1,(irq_handler_t)irq_handeler,IRQF_SHARED ,"Keyboard irq handel",(void *)(irq_handeler));
 	if(ret<0){
-		printk(KERN_ALERT "Allocate interrupt \n");
+		printk(KER_ALERT "Allocate interrupt \n");
 	}
 	return 0;
 }
