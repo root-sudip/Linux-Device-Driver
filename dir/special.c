@@ -14,6 +14,8 @@
 //S_IRWXG
 //S_IRWXO
 
+//fifi communicate with two process and char communicate with device
+
 int main(){
 	int return_val;
 
